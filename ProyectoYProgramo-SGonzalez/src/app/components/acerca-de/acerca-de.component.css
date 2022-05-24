@@ -1,3 +1,34 @@
   .row{
       padding: 15px;
   }
+  div{
+   /* background-color: #a1b5cb; */
+   background-color:#7897fc ;
+    text-align: center;
+  }
+  /*estilo foto*/
+  @media (min-width:576px){
+    #fotoperfil{
+      position:absolute;
+      width:15%;
+      border-radius:100%;
+      box-shadow: 3px 3px 3px grey;
+      left:3%;
+      top:510px;
+    }
+  }
+  @media (max-width:575px){
+    #fotoperfil{
+      position:absolute;
+      width:150px;
+      border-radius:30%;
+      box-shadow: 3px 3px 3px rgb(238, 153, 153);
+      left:35%;
+      top:530px;
+    }
+  }
+  /*etiqueta nombre*/
+  #nombre{
+    font-weight: bold;
+    margin-top: 30%;
+  }
